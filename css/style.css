@@ -1,0 +1,36 @@
+body{
+	background-color: #D5EFFD;
+}
+
+.cabecalho {
+  background-color: red;
+  width: 950px;
+  margin-left: 240px;
+  height: 240px;
+}
+
+.logo-pesquisa {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 900px;
+  height: 155px;
+  background-color: blue;
+}
+
+.logo {
+  margin-top: -5px;
+  width: 160px;
+}
+
+.pesquisa {
+  width: 220px;
+  float: right;
+  margin-top: -57px;
+}
+
+.navegacao {
+  margin-left: 10px;
+  width: 900px;
+  margin-top: 7px;
+}
+

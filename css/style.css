@@ -124,3 +124,23 @@ p.p-publicidade {
   font-weight: bold;
 }
 
+/*-- Universidade --*/
+.universidade {
+  width: 950px;
+  height: auto;
+  margin-top: 15px;
+}
+
+.zebrado{
+background-image: url(../img/zebrado.png);
+}
+
+.tit-canais {
+  font-weight: 700;
+  font-size: 110%;
+  text-transform: uppercase;
+  background-color: #FFF;
+  border: solid #FFF 2px;
+  border-right: solid #fff 13px;
+  color:#003755;
+}

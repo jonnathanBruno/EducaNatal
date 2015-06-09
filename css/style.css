@@ -1,9 +1,5 @@
-body{
-	background-color: #D5EFFD;
-}
 
 .cabecalho {
-  background-color: red;
   width: 950px;
   margin-left: 230px;
   height: 240px;
@@ -12,10 +8,9 @@ body{
 
 .logo-pesquisa {
   margin-top: 20px;
-  margin-left: 10px;
-  width: 900px;
+  margin-left: -15px;
+  width: 950px;
   height: 155px;
-  background-color: blue;
 }
 
 .logo {
@@ -25,7 +20,7 @@ body{
 
 .pesquisa {
   width: 220px;
-  left: 705px;
+  left: 730px;
   top: 135px;
   position: absolute;
 }
@@ -35,31 +30,64 @@ body{
   height: 60px;
   position: absolute;
   top: 85px;
-  left: 705px;
+  left: 731px;
 }
 
 p.sub-redes-sociais {
   position: absolute;
   top: 64px;
-  left: 706px;
+  left: 735px;
   font-size: 12px;
-  color: #89a3bb;
+  color: #003755;
+  font-weight: bold;
+}
+
+/**/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: white;
+  background-color: #003555;
+}
+
+.navbar-default {
+  border-color: #005181;
+  background: linear-gradient(#86D2FF, #005181);
+}
+
+.navbar-default .navbar-brand {
+  color: #003555;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #003555;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: white;
+  background-color: #003555;
+}
+/**/
+.linha {
+  position: absolute;
+  width: 150%;
+  height: 0px;
+  left: -230px;
+  top: 229px;
+  border-bottom: 1px solid #003555;
+  box-shadow: 0px 3px 8px 1px #003555;
 }
 
 .navegacao {
-  margin-left: 10px;
+  margin-left: -15px;
   position: absolute;
-  width: 900px;
+  width: 950px;
   margin-top: 7px;
 }
 /* -- CONTEUDO --*/
 .conteudo {
-  background-color: rebeccapurple;
   margin-left: -15px;
   margin-top: 80px;
   height: auto;
   width: 950px;
-  border-top: 2px solid gray;
+  border-top: 2px solid #005481;
 }
 
 div#myCarousel {
@@ -69,7 +97,8 @@ div#myCarousel {
 
 p.destaques {
   font-size: 12px;
-  color: #89a3bb;
+  color: #003755;
+  font-weight: bold;
   margin-top: 2px;
   margin-bottom: 4px;
 }
@@ -91,6 +120,7 @@ p.p-publicidade {
   margin-top: -321px;
   font-size: 12px;
   margin-right: 235px;
-  color: #89a3bb;
+  color: #003755;
+  font-weight: bold;
 }
 

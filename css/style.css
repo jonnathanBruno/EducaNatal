@@ -7,6 +7,7 @@ body{
   width: 950px;
   margin-left: 230px;
   height: 240px;
+  position:absolute;
 }
 
 .logo-pesquisa {
@@ -24,8 +25,25 @@ body{
 
 .pesquisa {
   width: 220px;
-  float: right;
-  margin-top: -57px;
+  left: 705px;
+  top: 135px;
+  position: absolute;
+}
+
+.redes.sociais {
+  width: 230px;
+  height: 60px;
+  position: absolute;
+  top: 85px;
+  left: 705px;
+}
+
+p.sub-redes-sociais {
+  position: absolute;
+  top: 64px;
+  left: 706px;
+  font-size: 12px;
+  color: #89a3bb;
 }
 
 .navegacao {
@@ -34,12 +52,45 @@ body{
   width: 900px;
   margin-top: 7px;
 }
-
+/* -- CONTEUDO --*/
 .conteudo {
   background-color: rebeccapurple;
   margin-left: -15px;
   margin-top: 80px;
-  height: 300px;
+  height: auto;
   width: 950px;
+  border-top: 2px solid gray;
+}
+
+div#myCarousel {
+  width: 620px;
+  height: 300px;
+}
+
+p.destaques {
+  font-size: 12px;
+  color: #89a3bb;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+  height: 300px !important;
+}
+
+.publicidade {
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-top: -300px;
+  margin-right: 100px;
+}
+
+p.p-publicidade {
+  float: right;
+  margin-top: -321px;
+  font-size: 12px;
+  margin-right: 235px;
+  color: #89a3bb;
 }
 

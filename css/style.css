@@ -138,27 +138,47 @@ p.p-publicidade {
 }
 
 .noticia1 {
-  width: 230px;
+  width: 250px;
   height: 355px;
-  padding: 4px;
-  background: linear-gradient(white, #E8E8E8);
+  background: linear-gradient(white, #FFFFFF);
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 2px;
   margin-bottom: 20px;
   margin-top: 10px;
-  box-shadow: 7px 7px 19px -9px;
+  box-shadow: 1px 3px 18px -10px;
 }
 
-.col-sm-6.col-md-4.noticias2 {
+.noticia2 {
+  width: 250px;
+  height: 355px;
+  background: linear-gradient(white, #FFFFFF);
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  box-shadow: 1px 3px 18px -10px;
   position: absolute;
   top: 641px;
-  left: 325px;
+  left: 260px;
 }
 
-.col-sm-6.col-md-4.noticias3 {
+.noticia3 {
+  width: 250px;
+  height: 355px;
+  background: linear-gradient(white, #FFFFFF);
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  box-shadow: 3px 7px 17px -9px;
   position: absolute;
   top: 641px;
-  left: 650px;
+  left: 520px;
+}
+
+.conteudo-noticia {
+  padding: 5px;
+}
+
+.ler-noticia {
+  background-color: #003555;
+  border-color: #2e6da4;
 }
 
 .zebrado{

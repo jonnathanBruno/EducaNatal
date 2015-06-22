@@ -176,6 +176,12 @@ p.p-publicidade {
   padding: 5px;
 }
 
+.propaganda2 {
+  position: absolute;
+  top: 642px;
+  left: 774px;
+}
+
 .ler-noticia {
   background-color: #003555;
   border-color: #2e6da4;
@@ -194,6 +200,69 @@ background-image: url(../img/zebrado.png);
   border-right: solid #fff 13px;
   color:#003755;
 }
+
+.ensino{
+color:orange !important;
+}
+
+.noticia1-ensino {
+  margin-top: 10px;
+}
+
+p.conteudo-noticia1-ensino {
+  font-weight: bold;
+  width: 500px;
+  font-size: 14px;
+  line-height: 1.428571429;
+}
+
+p.noticia1-ensino {
+  width: 517px;
+  font-size: 90%;
+  line-height: 1.428571429;
+  color: #373737;
+}
+
+.noticia2-ensino {
+  width: 28%;
+  float: left;
+  margin-left: 513px;
+  margin-top: -432px;
+  max-width: 275px;
+}
+
+.noticia3-ensino {
+  width: 267px;
+  float: left;
+  margin-top: -214px;
+  margin-left: 512px;
+}
+
+.pesquisa-ensino {
+  width: 163px;
+  height: 200px;
+  background-color: #ccc;;
+  float: left;
+  margin-left: 787px;
+  margin-top: -438px;
+  padding: 10px;
+}
+
+.pes{
+  font-weight: bold;
+}
+
+.qui{
+  width: 122px !important;
+  margin-left: -33px;
+  font-size: 18px;
+}
+
+.sub{
+  width: 100% !important;
+  max-height: 85px;
+}
+
 /*fotter*/
 @font-face {
 	font-family: 'logo';
